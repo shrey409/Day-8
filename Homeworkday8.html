@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Background Examples</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    section {
+      height: 200px;
+      padding: 20px;
+      color: white;
+      font-size: 18px;
+    }
+
+    #linear {
+      background: linear-gradient(to right, red, yellow);
+    }
+
+    #radial {
+      background: radial-gradient(circle, lightblue, navy);
+    }
+
+    #image {
+      background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb');
+      background-size: cover;
+      background-position: center;
+      text-shadow: 1px 1px 3px black;
+    }
+  </style>
+</head>
+<body>
+
+  <section id="linear">
+    <p>This section has a linear gradient background that blends from red to yellow. Linear gradients are commonly used for smooth transitions between colors across a background.</p>
+  </section>
+
+  <section id="radial">
+    <p>This section uses a radial gradient, starting from light blue in the center and fading out to navy. Radial gradients radiate from a central point outward.</p>
+  </section>
+
+  <section id="image">
+    <p>This section features a scenic photo as the background.</p>
+  </section>
+
+</body>
+</html>
